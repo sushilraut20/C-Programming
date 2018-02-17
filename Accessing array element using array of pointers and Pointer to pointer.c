@@ -1,8 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-
-
 int main(){
 
  int a[]={1,2,3,4,5};
@@ -40,9 +38,6 @@ int main(){
  printf("Using *p[3]: %d \n",*p[3]);
  printf("Using *(*(p+3)): %d \n",*(*(p+3)));
  printf("Using *(*(pp+3)): %d \n",*(*(pp+3)));
-
-
-
 
 return 0;
 }
